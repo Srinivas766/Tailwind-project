@@ -52,7 +52,7 @@ const DashBoard = () => {
           alt="filter"
           className="w-5 h-5 block xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden"
         />
-        <div className="flex w-1/3 justify-between">
+        <div className="flex w-145 justify-between">
           <div className="relative">
             <div
               className="flex p-15px justify-between items-center rounded-xsm w-42.5 h-45px bg-white text-ft14 text-black-50"
@@ -157,7 +157,7 @@ const DashBoard = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap items-centerxl:justify-center 2xl:justify-center mt-10">
+      <div className="flex w-full justify-between flex-wrap items-centerxl:justify-center 2xl:justify-center mt-10">
         <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-45px px-5 md:px-1 2xl:px-1 mt-5 mr-7 w-full max-w-115 min-w-60 rounded-sm bg-white">
           <img
             src="/images/revenueIcon.png"
@@ -188,7 +188,7 @@ const DashBoard = () => {
             </h1>
           </div>
         </div>
-        <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-45px px-5 md:px-1 2xl:px-1 mt-5 mr-7 w-full max-w-115 min-w-60 rounded-sm bg-white">
+        <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-45px px-5 md:px-1 2xl:px-1 mt-5 w-full max-w-115 min-w-60 rounded-sm bg-white">
           <img
             src="/images/ticket-icon.png"
             alt="revenueIcon"

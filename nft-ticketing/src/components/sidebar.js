@@ -3,7 +3,7 @@ import React from "react";
 const Sidebar = (props) => {
   return (
     <div>
-      <div className="w-62.5 h-full flex flex-col items-center bg-grey-200 drop-shadow-loginform bg-cover min-h-screen xs:hidden sm:hidden">
+      <div className="w-62.5 h-full flex flex-col items-center bg-white drop-shadow-loginform bg-cover min-h-screen xs:hidden sm:hidden">
         <div className="mt-23px">
           <img
             src="/images/loginpageLogo.svg"
@@ -49,7 +49,7 @@ const Sidebar = (props) => {
           }}
         >
           <img
-            src="/images/calendar.png"
+            src="/images/calendar-icon.png"
             alt="graph"
             className=" h-19px w-19px ml-25px text-blue-100"
           />
@@ -91,7 +91,7 @@ const Sidebar = (props) => {
           </h1>
         </div>
       </div>
-      <div className="items-center bg-grey-200 drop-shadow-loginform bg-cover min-h-screen w-8 hidden xs:flex xs:flex-col sm:flex sm:flex-col sm:w-12 xs:gap-8 sm:gap-10 pt-20">
+      <div className="items-center drop-shadow-loginform bg-cover min-h-screen w-8 hidden xs:flex xs:flex-col sm:flex sm:flex-col sm:w-12 xs:gap-8 sm:gap-10 pt-20">
         <img
           src="/images/graph.svg"
           alt="graph"
@@ -105,7 +105,7 @@ const Sidebar = (props) => {
           }}
         />
         <img
-          src="/images/calendar.png"
+          src="/images/calendar-icon.png"
           alt="graph"
           className={`${
             props.menuObj.events ? " border-b-2 pb-1 border-blue-100" : ""
