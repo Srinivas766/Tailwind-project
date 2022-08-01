@@ -254,11 +254,11 @@ const DashBoard = () => {
           <h1 className="font-OpenSansSemiBold text-ft18 text-black-50">
             Sales by Event
           </h1>
-          <div className="mt-10 bg-white h-100 p-5 rounded-sm xs:overflow-x-scroll">
+          <div className="mt-10 bg-white h-100 rounded-sm xs:overflow-x-scroll">
             <table className="table min-w-full whitespace-nowrap">
-              <thead className="border-b border-grey-50 bg-white sticky top-0">
+              <thead className="border-b border-grey-50 bg-white sticky top-0 py-3pe">
                 <tr className="flex">
-                  <th className="flex items-center font-OpenSansSemiBold text-black-50 w-40pe">
+                  <th className="flex items-center pl-3pe font-OpenSansSemiBold text-black-50 w-40pe">
                     Event Name
                     <img
                       src="/images/range-icon.png"
@@ -286,7 +286,7 @@ const DashBoard = () => {
               </thead>
               <tbody className="items-center">
                 <tr className="border-b border-grey-50 flex">
-                  <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
+                  <td className="w-40pe py-5 pr-5 pl-3pe font-OpenSansRegular text-black-50 text-ft14 truncate">
                     Hard Summer Music Festival
                   </td>
                   <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -297,7 +297,7 @@ const DashBoard = () => {
                   </td>
                 </tr>
                 <tr className="border-b border-grey-50 flex">
-                  <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
+                  <td className="w-40pe pl-3pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
                     When we were you
                   </td>
                   <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -308,7 +308,7 @@ const DashBoard = () => {
                   </td>
                 </tr>
                 <tr className="border-b border-grey-50 flex">
-                  <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
+                  <td className="w-40pe pl-3pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
                     Buku 2022
                   </td>
                   <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -319,7 +319,7 @@ const DashBoard = () => {
                   </td>
                 </tr>
                 <tr className="border-b border-grey-50 flex">
-                  <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
+                  <td className="w-40pe pl-3pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
                     Coachella 2022
                   </td>
                   <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -330,7 +330,7 @@ const DashBoard = () => {
                   </td>
                 </tr>
                 <tr className="border-b border-grey-50 flex">
-                  <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
+                  <td className="w-40pe pl-3pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14 truncate">
                     Lovers and Friends
                   </td>
                   <td className="w-40pe py-5 pr-5 font-OpenSansRegular text-black-50 text-ft14">
