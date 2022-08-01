@@ -10,7 +10,7 @@ const LoginPage = (params) => {
   };
 
   return (
-    <div className="bg-grey-50 h-screen bg-cover flex justify-center items-center drop-shadow-loginform">
+    <div className="bg-grey-50 h-screen bg-cover flex justify-center items-center shadow-sm">
       <form
         className="bg-white w-125 h-133.5 flex flex-col items-center rounded-sm xs:w-80"
         onSubmit={submitHandler}

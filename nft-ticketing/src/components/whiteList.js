@@ -24,7 +24,7 @@ const WhiteList = () => {
           + Add User
         </button>
       </div>
-      <div className="bg-white rounded-sm drop-shadow-loginform w-full min-w-300 py-3.5 mt-7.5 overflow-x-scroll">
+      <div className="bg-white rounded-sm shadow-sm w-full min-w-300 py-3.5 mt-7.5 overflow-x-scroll">
         <table className="table min-w-full whitespace-nowrap justify-center ">
           <thead className="border-b-2 border-grey-50">
             <th className="py-5 xr:pl-7.5 pl-3">

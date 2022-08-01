@@ -205,7 +205,7 @@ const DashBoard = () => {
           <h1 className="font-OpenSansSemiBold text-ft18 text-black-50">
             Splits per contributors
           </h1>
-          <div className="mt-10 tb:flex mbl:h-148 items-center bg-white bg-cover min-w-full rounded-sm drop-shadow-loginform ">
+          <div className="mt-10 tb:flex mbl:h-148 items-center bg-white bg-cover min-w-full rounded-sm shadow-sm">
             <Chart />
             <div className="mbl:flex mbl:flex-col mbl:items-center">
               <div>
