@@ -44,7 +44,7 @@ const DashBoard = () => {
     },
   ]);
   return (
-    <div className="pl-12.5 pr-12.5 xs:px-2 bg-grey-200 min-h-screen ">
+    <div className="px-12.5 xs:px-2 pb-13 bg-grey-200 min-h-screen ">
       <div className="2.5xl:flex pt-12.5 xs:pt-8 text-black-50 text-ft22 font-OpenSansSemiBold items-center justify-between">
         <h1>DashBoard</h1>
 
