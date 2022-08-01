@@ -8,13 +8,13 @@ const Header = (props) => {
         alt="hamburgerIcon"
         className="w-4.5 h-3 ml-12.5 xs:ml-2"
         onClick={() => {
-          props.setShowNav((prevState) => !prevState);
+          props.setShowSideBar((prevState) => !prevState);
         }}
       />
       <div className="h-35px flex items-center">
         <img
-          src="/images/profileImg.png"
-          alt="profileImg"
+          src="/images/profile-icon.png"
+          alt="profileIcon"
           className="w-35px h-35px"
         />
         <h1 className="ml-11px mr-2.5 text-ft14 font-OpenSansSemiBold">

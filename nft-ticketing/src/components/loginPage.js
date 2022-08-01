@@ -16,8 +16,8 @@ const LoginPage = (params) => {
         onSubmit={submitHandler}
       >
         <img
-          src="/images/loginpageLogo.svg"
-          alt="loginpageLogo"
+          src="/images/main-logo.svg"
+          alt="mainLogo"
           className="w-42 h-7.5 mt-12.5"
         />
         <h1 className="mt-7.5 font-OpenSansSemiBold text-ft20">

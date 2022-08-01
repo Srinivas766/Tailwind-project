@@ -11,7 +11,7 @@ const WhiteList = () => {
         <div className="flex items-center justify-between bg-white border border-white rounded-lsm xs:w-auto xs:mr-5 w-75 h-45px px-5">
           <input type="text" placeholder="Search" className=" outline-none" />
           <img
-            src="/images/searchIcon.svg"
+            src="/images/search-icon.svg"
             alt="searchIcon"
             className="w-4 h-17px"
           />
@@ -21,15 +21,15 @@ const WhiteList = () => {
           <button type="submit">Add User</button>
         </div>
       </div>
-      <div className="bg-white rounded-sm drop-shadow-loginform max-w-1600 min-w-300 py-15px mt-7.5">
+      <div className="bg-white rounded-sm drop-shadow-loginform w-full min-w-300 py-15px mt-7.5">
         <table className="table min-w-full whitespace-nowrap justify-center ">
           <thead className="border-b-2 border-grey-50">
             <th className="py-5 pl-7.5">
               <div className="flex items-baseline font-OpenSansSemiBold text-black-50 font-semibold">
                 Name
                 <img
-                  src="/images/shortIcon.png"
-                  alt="shortIcon"
+                  src="/images/range-icon.png"
+                  alt="rangeIcon"
                   className="w-9px h-13px ml-2.5"
                 />
               </div>
@@ -90,7 +90,7 @@ const WhiteList = () => {
                 Communite.HomePage
               </td>
               <td className="py-5">
-                <img src="/images/action.png" alt="actionLogo" />
+                <img src="/images/select-icon.png" alt="actionLogo" />
               </td>
             </tr>
             <tr className="border-b-2 border-grey-50">
@@ -107,7 +107,7 @@ const WhiteList = () => {
                 Communite.HomePage
               </td>
               <td className="py-5 ">
-                <img src="/images/action.png" alt="actionLogo" />
+                <img src="/images/select-icon.png" alt="actionLogo" />
               </td>
             </tr>
             <tr className="border-b-2 border-grey-50">
@@ -124,7 +124,7 @@ const WhiteList = () => {
                 Communite.HomePage
               </td>
               <td>
-                <img src="/images/action.png" alt="actionLogo" />
+                <img src="/images/select-icon.png" alt="actionLogo" />
               </td>
             </tr>
             <tr className="border-b-2 border-grey-50">
@@ -141,7 +141,7 @@ const WhiteList = () => {
                 Communite.HomePage
               </td>
               <td className="py-5">
-                <img src="/images/action.png" alt="actionLogo" />
+                <img src="/images/select-icon.png" alt="actionLogo" />
               </td>
             </tr>
             <tr className="border-b-2 border-grey-50">
@@ -158,7 +158,7 @@ const WhiteList = () => {
                 Communite.HomePage
               </td>
               <td className="py-5">
-                <img src="/images/action.png" alt="actionLogo" />
+                <img src="/images/select-icon.png" alt="actionLogo" />
               </td>
             </tr>
             <tr>
@@ -175,7 +175,7 @@ const WhiteList = () => {
                 Communite.HomePage
               </td>
               <td className="py-5 ">
-                <img src="/images/action.png" alt="actionLogo" />
+                <img src="/images/select-icon.png" alt="actionLogo" />
               </td>
             </tr>
           </tbody>

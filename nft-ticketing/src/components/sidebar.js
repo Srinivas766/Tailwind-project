@@ -13,12 +13,12 @@ const Sidebar = (props) => {
         </div>
         <div
           className={`${
-            props.menuObj.dashBoard
+            props.sideElements.dashBoard
               ? "bg-grey-250 border-l-4 border-blue-100"
               : ""
           } mt-13.5 flex self-start items-center w-62.5 h-12.5 cursor-pointer`}
           onClick={() => {
-            props.setMenuObj({
+            props.setSideElements({
               dashBoard: true,
             });
           }}
@@ -30,7 +30,7 @@ const Sidebar = (props) => {
           />
           <h1
             className={`${
-              props.menuObj.dashBoard
+              props.sideElements.dashBoard
                 ? "text-black-50 font-OpenSansSemiBold"
                 : "text-black-100 font-OpenSansRegular"
             } ml-5 text-ft14`}
@@ -40,10 +40,12 @@ const Sidebar = (props) => {
         </div>
         <div
           className={`${
-            props.menuObj.events ? "bg-grey-250 border-l-4 border-blue-100" : ""
+            props.sideElements.events
+              ? "bg-grey-250 border-l-4 border-blue-100"
+              : ""
           } mt-2.5 flex self-start items-center w-62.5 h-12.5 cursor-pointer`}
           onClick={() => {
-            props.setMenuObj({
+            props.setSideElements({
               events: true,
             });
           }}
@@ -55,7 +57,7 @@ const Sidebar = (props) => {
           />
           <h1
             className={`${
-              props.menuObj.events
+              props.sideElements.events
                 ? "text-black-50 font-OpenSansSemiBold"
                 : "text-black-100 font-OpenSansRegular"
             } ml-5 text-ft14`}
@@ -65,12 +67,12 @@ const Sidebar = (props) => {
         </div>
         <div
           className={`${
-            props.menuObj.whiteList
+            props.sideElements.whiteList
               ? "bg-grey-250 border-l-4 border-blue-100"
               : ""
           } mt-2.5 flex self-start items-center w-62.5 h-12.5 cursor-pointer`}
           onClick={() => {
-            props.setMenuObj({
+            props.setSideElements({
               whiteList: true,
             });
           }}
@@ -82,7 +84,7 @@ const Sidebar = (props) => {
           />
           <h1
             className={`${
-              props.menuObj.whiteList
+              props.sideElements.whiteList
                 ? "text-black-50 font-OpenSansSemiBold"
                 : "text-black-100 font-OpenSansRegular"
             } ml-5 text-ft14`}
@@ -96,10 +98,12 @@ const Sidebar = (props) => {
           src="/images/graph.svg"
           alt="graph"
           className={`${
-            props.menuObj.dashBoard ? " border-b-2 pb-1 border-blue-100" : ""
+            props.sideElements.dashBoard
+              ? " border-b-2 pb-1 border-blue-100"
+              : ""
           }h-4 w-4`}
           onClick={() => {
-            props.setMenuObj({
+            props.setSideElements({
               dashBoard: true,
             });
           }}
@@ -108,10 +112,10 @@ const Sidebar = (props) => {
           src="/images/calendar-icon.png"
           alt="graph"
           className={`${
-            props.menuObj.events ? " border-b-2 pb-1 border-blue-100" : ""
+            props.sideElements.events ? " border-b-2 pb-1 border-blue-100" : ""
           }h-4 w-4`}
           onClick={() => {
-            props.setMenuObj({
+            props.setSideElements({
               events: true,
             });
           }}
@@ -120,10 +124,12 @@ const Sidebar = (props) => {
           src="/images/persons.png"
           alt="graph"
           className={`${
-            props.menuObj.whiteList ? " border-b-2 pb-1 border-blue-100" : ""
+            props.sideElements.whiteList
+              ? " border-b-2 pb-1 border-blue-100"
+              : ""
           }h-4 w-4`}
           onClick={() => {
-            props.setMenuObj({
+            props.setSideElements({
               whiteList: true,
             });
           }}
