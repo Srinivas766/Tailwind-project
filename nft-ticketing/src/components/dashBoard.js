@@ -48,10 +48,10 @@ const DashBoard = () => {
       <div className="2.5xl:flex pt-12.5 xs:pt-8 text-black-50 text-ft22 font-OpenSansSemiBold items-center justify-between">
         <h1>DashBoard</h1>
 
-        <div className="stb-flex tb:w-145 w-full justify-between">
+        <div className="tb:flex tb:w-145 w-full justify-between">
           <div className="relative mt-5pe 2.5xl:mt-0">
             <div
-              className="flex tb:p-15px p-11px justify-between items-center rounded-xsm tb:w-42.5 w-37.5 h-45px bg-white text-ft14 text-black-50"
+              className="flex tb:p-3.5 p-2.75 justify-between items-center rounded-xsm tb:w-42.5 w-37.5 h-11 bg-white text-ft14 text-black-50"
               onClick={(e) => {
                 setVenueDropDownVisible(!isVenueDropDownVisible);
               }}
@@ -65,11 +65,11 @@ const DashBoard = () => {
               <img src="/images/arrow.png" className="w-2 h-1" />
             </div>
             {isVenueDropDownVisible ? (
-              <div className="bg-white absolute z-10 tb:w-42.5 w-37.5 rounded-xsm text-ft14 mt-5pe tb:p-15px p-11px">
+              <div className="bg-white absolute z-10 tb:w-42.5 w-37.5 rounded-xsm text-ft14 mt-5pe tb:p-3.5 p-2.75">
                 {venueList.map((item, index) => (
                   <div
                     key={item.value}
-                    className="hover:bg-grey-50 tb:p-15px p-11px"
+                    className="hover:bg-grey-50 tb:p-3.5 p-2.75"
                     onClick={() => {
                       setSelectedVenueIndex(index);
                       setVenueDropDownVisible(false);
@@ -85,7 +85,7 @@ const DashBoard = () => {
           </div>
           <div className="relative mt-5pe 2.5xl:mt-0">
             <div
-              className=" text-black-50 flex tb:p-15px p-11px justify-between items-center rounded-xsm tb:w-42.5 w-37.5 h-45px bg-white text-ft14"
+              className=" text-black-50 flex tb:p-3.5 p-2.75 justify-between items-center rounded-xsm tb:w-42.5 w-37.5 h-11 bg-white text-ft14"
               onClick={(e) => {
                 setStatusDropDownVisible(!isStatusDropDownVisible);
               }}
@@ -99,11 +99,11 @@ const DashBoard = () => {
               <img src="/images/arrow.png" className="w-2 h-1" />
             </div>
             {isStatusDropDownVisible ? (
-              <div className="bg-white z-10 absolute tb:w-42.5 w-37.5 rounded-xsm text-ft14 mt-5pe tb:p-15px p-11px">
+              <div className="bg-white z-10 absolute tb:w-42.5 w-37.5 rounded-xsm text-ft14 mt-5pe tb:p-3.5 p-2.75">
                 {statusList.map((item, index) => (
                   <div
                     key={item.value}
-                    className=" hover:bg-grey-50 tb:p-15px p-11px"
+                    className=" hover:bg-grey-50 tb:p-3.5 p-2.75"
                     onClick={() => {
                       setSelectedStatusIndex(index);
                       setStatusDropDownVisible(false);
@@ -119,7 +119,7 @@ const DashBoard = () => {
           </div>
           <div className="relative mt-5pe 2.5xl:mt-0">
             <div
-              className=" text-black-50 opacity-100 flex tb:p-15px p-11px justify-between items-center rounded-xsm tb:w-42.5 w-37.5 h-45px bg-white text-ft14"
+              className=" text-black-50 opacity-100 flex tb:p-3.5 p-2.75 justify-between items-center rounded-xsm tb:w-42.5 w-37.5 h-11 bg-white text-ft14"
               onClick={(e) => {
                 setDurationDropDownVisible(!isDurationDropDownVisible);
               }}
@@ -133,11 +133,11 @@ const DashBoard = () => {
               <img src="/images/arrow.png" className="w-2 h-1" />
             </div>
             {isDurationDropDownVisible ? (
-              <div className="bg-white z-10 absolute tb:w-42.5 w-37.5 rounded-xsm text-ft14 mt-5pe tb:p-15px p-11px">
+              <div className="bg-white z-10 absolute tb:w-42.5 w-37.5 rounded-xsm text-ft14 mt-5pe tb:p-3.5 p-2.75">
                 {durationList.map((item, index) => (
                   <div
                     key={item.value}
-                    className="hover:bg-grey-50 tb:p-15px p-11px"
+                    className="hover:bg-grey-50 tb:p-3.5 p-2.75"
                     onClick={() => {
                       setSelectedDurationIndex(index);
                       setDurationDropDownVisible(false);
@@ -154,7 +154,7 @@ const DashBoard = () => {
         </div>
       </div>
       <div className="flex w-full justify-between flex-wrap items-centerxl:justify-center 2xl:justify-center mt-10">
-        <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-45px px-5 md:px-1 2xl:px-1 mt-5 mr-7 w-full max-w-115 min-w-60 rounded-sm bg-white">
+        <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-11 px-5 md:px-1 2xl:px-1 mt-5 mr-7 w-full max-w-115 min-w-60 rounded-sm bg-white">
           <img
             src="/images/revenue-icon.png"
             alt="revenueIcon"
@@ -169,7 +169,7 @@ const DashBoard = () => {
             </h1>
           </div>
         </div>
-        <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-45px px-5 md:px-1 2xl:px-1 mt-5 mr-7 w-full max-w-115 min-w-60 rounded-sm bg-white">
+        <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-11 px-5 md:px-1 2xl:px-1 mt-5 mr-7 w-full max-w-115 min-w-60 rounded-sm bg-white">
           <img
             src="/images/users-icon.png"
             alt="revenueIcon"
@@ -184,7 +184,7 @@ const DashBoard = () => {
             </h1>
           </div>
         </div>
-        <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-45px px-5 md:px-1 2xl:px-1 mt-5 w-full mr-7 3.5xl:mr-0 max-w-115 min-w-60 rounded-sm bg-white">
+        <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-11 px-5 md:px-1 2xl:px-1 mt-5 w-full mr-7 3.5xl:mr-0 max-w-115 min-w-60 rounded-sm bg-white">
           <img
             src="/images/ticket-icon.png"
             alt="revenueIcon"
@@ -236,7 +236,7 @@ const DashBoard = () => {
               </div>
               <div>
                 <div className="flex items-center gap-1 mt-5">
-                  <div className="w-2.5 h-2.5 bg-black-100 rounded-xsm"></div>
+                  <div className="w-2.5 h-2.5 bg-grey-75 rounded-xsm"></div>
                   <h1 className="text-grey-150 font-OpenSansRegular text-ft10">
                     Promoter
                   </h1>
@@ -263,7 +263,7 @@ const DashBoard = () => {
                     <img
                       src="/images/range-icon.png"
                       alt="rangeIcon"
-                      className="w-9px h-13px ml-2.5"
+                      className="w-2.25 h-3.25 ml-2.5"
                     />
                   </th>
                   <th className="flex items-center font-OpenSansSemiBold text-black-50 w-40pe">
@@ -271,7 +271,7 @@ const DashBoard = () => {
                     <img
                       src="/images/range-icon.png"
                       alt="rangeIcon"
-                      className="w-9px h-13px ml-2.5"
+                      className="w-2.25 h-3.25 ml-2.5"
                     />
                   </th>
                   <th className="flex items-center font-OpenSansSemiBold text-black-50 w-40pe">
@@ -279,7 +279,7 @@ const DashBoard = () => {
                     <img
                       src="/images/range-icon.png"
                       alt="rangeIcon"
-                      className="w-9px h-13px ml-2.5"
+                      className="w-2.25 h-3.25 ml-2.5"
                     />
                   </th>
                 </tr>
@@ -366,7 +366,7 @@ const data = [
 
 function Chart() {
   return (
-    <ResponsiveContainer className="w-100 h-100 xs:w-75 xs:h-75 ml-auto mr-auto">
+    <ResponsiveContainer className="w-100 h-100 xs:w-75 xs:h-75 xs:ml-auto xs:mr-auto">
       <PieChart>
         <Pie
           cx="50%"

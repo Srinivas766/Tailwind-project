@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = (props) => {
   return (
-    <div className="h-65px bg-white flex items-center justify-between w-full">
+    <div className="h-16 bg-white flex items-center justify-between w-full">
       <img
         src="/images/hamburgerIcon.svg"
         alt="hamburgerIcon"
@@ -11,13 +11,13 @@ const Header = (props) => {
           props.setShowSideBar((prevState) => !prevState);
         }}
       />
-      <div className="h-35px flex items-center">
+      <div className="h-8.5 flex items-center">
         <img
           src="/images/profile-icon.png"
           alt="profileIcon"
-          className="w-35px h-35px"
+          className="w-8.5 h-8.5"
         />
-        <h1 className="ml-11px mr-2.5 text-ft14 font-OpenSansSemiBold">
+        <h1 className="ml-2.75 mr-2.5 text-ft14 font-OpenSansSemiBold">
           John Doe
         </h1>
         <img src="/images/arrow.png" alt="arrow" />

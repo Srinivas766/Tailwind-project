@@ -26,14 +26,14 @@ const LoginPage = (params) => {
         <input
           type="email"
           placeholder="Email Address"
-          className="bg-grey-100 mt-10 w-115 h-15 xs:w-72 rounded-sm pl-5 text-black-100 text-ft16 font-OpenSansRegular"
+          className="bg-grey-100 mt-10 w-115 h-15 xs:w-72 rounded-sm pl-5 text-grey-75 text-ft16 font-OpenSansRegular"
         />
         <input
           type="password"
           placeholder="Password"
-          className="bg-grey-100 mt-15px w-115 h-15 xs:w-72 rounded-sm pl-5 text-black-100 text-ft16 font-OpenSansRegular"
+          className="bg-grey-100 mt-3.5 w-115 h-15 xs:w-72 rounded-sm pl-5 text-grey-75 text-ft16 font-OpenSansRegular"
         />
-        <div className="flex items-center self-start pl-5 mt-31px h-5 text-black-100 text-ft16">
+        <div className="flex items-center self-start pl-5 mt-8 h-5 text-grey-75 text-ft16">
           <input
             type="checkbox"
             name="remember"

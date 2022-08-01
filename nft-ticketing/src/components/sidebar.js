@@ -4,7 +4,7 @@ const Sidebar = (props) => {
   return (
     <div>
       <div className="w-62.5 h-full flex flex-col items-center bg-white drop-shadow-loginform bg-cover min-h-screen xs:hidden sm:hidden">
-        <div className="mt-23px">
+        <div className="mt-6">
           <img
             src="/images/loginpageLogo.svg"
             alt="nftLogo"
@@ -23,16 +23,12 @@ const Sidebar = (props) => {
             });
           }}
         >
-          <img
-            src="/images/graph.svg"
-            alt="graph"
-            className=" h-4 w-4 ml-25px"
-          />
+          <img src="/images/graph.svg" alt="graph" className=" h-4 w-4 ml-6" />
           <h1
             className={`${
               props.sideElements.dashBoard
                 ? "text-black-50 font-OpenSansSemiBold"
-                : "text-black-100 font-OpenSansRegular"
+                : "text-grey-75 font-OpenSansRegular"
             } ml-5 text-ft14`}
           >
             Dashboard
@@ -53,13 +49,13 @@ const Sidebar = (props) => {
           <img
             src="/images/calendar-icon.png"
             alt="graph"
-            className=" h-19px w-19px ml-25px text-blue-100"
+            className=" h-4.5 w-4.5 ml-6 text-blue-100"
           />
           <h1
             className={`${
               props.sideElements.events
                 ? "text-black-50 font-OpenSansSemiBold"
-                : "text-black-100 font-OpenSansRegular"
+                : "text-grey-75 font-OpenSansRegular"
             } ml-5 text-ft14`}
           >
             Events
@@ -80,13 +76,13 @@ const Sidebar = (props) => {
           <img
             src="/images/persons.png"
             alt="graph"
-            className=" h-4 w-4 ml-25px"
+            className=" h-4 w-4 ml-6"
           />
           <h1
             className={`${
               props.sideElements.whiteList
                 ? "text-black-50 font-OpenSansSemiBold"
-                : "text-black-100 font-OpenSansRegular"
+                : "text-grey-75 font-OpenSansRegular"
             } ml-5 text-ft14`}
           >
             Whitelist
