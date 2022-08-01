@@ -125,10 +125,6 @@ module.exports = {
       md: "35px",
     },
 
-    dropShadow: {
-      loginform: "0 3px 6px #949CAE2E",
-    },
-
     extend: {
       spacing: {
         2.25: "9px",
