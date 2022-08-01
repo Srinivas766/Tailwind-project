@@ -3,13 +3,9 @@ import React from "react";
 const Sidebar = (props) => {
   return (
     <div>
-      <div className="w-62.5 h-full flex flex-col items-center bg-white drop-shadow-loginform bg-cover min-h-screen xs:hidden sm:hidden">
+      <div className="w-62.5 h-full tb:flex flex-col items-center bg-white drop-shadow-loginform bg-cover min-h-screen hidden">
         <div className="mt-6">
-          <img
-            src="/images/loginpageLogo.svg"
-            alt="nftLogo"
-            className="w-30 h-6"
-          />
+          <img src="/images/main-logo.svg" alt="nftLogo" className="w-30 h-6" />
         </div>
         <div
           className={`${
@@ -89,7 +85,7 @@ const Sidebar = (props) => {
           </h1>
         </div>
       </div>
-      <div className="items-center drop-shadow-loginform bg-cover min-h-screen w-8 hidden xs:flex xs:flex-col sm:flex sm:flex-col sm:w-12 xs:gap-8 sm:gap-10 pt-20">
+      <div className="items-center drop-shadow-loginform bg-cover min-h-screen w-8 tb:hidden flex flex-col  sm:w-12 xs:gap-8 sm:gap-10 pt-20">
         <img
           src="/images/graph.svg"
           alt="graph"

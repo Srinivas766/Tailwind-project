@@ -1,7 +1,7 @@
 export default function Pagination() {
   return (
     <div className="bg-gray-50 mt-7.5 py-3 flex items-center justify-between">
-      <div className="flex justify-between w-full">
+      <div className="mb:flex justify-between w-full">
         <div className="flex">
           <p className="font-OpenSansRegular flex items-center text-grey-150 text-ft14">
             Show{" "}
@@ -25,11 +25,11 @@ export default function Pagination() {
             <img src="images/arrow.png" />
           </a>
         </div>
-        <div className="shadow-sm">
+        <div className="shadow-sm mt-7.5pe mb:mt-0">
           <nav className="relative z-0 inline-flex" aria-label="Pagination">
             <a
               href="#"
-              className="relative rounded-l-xsm inline-flex items-center px-2 py-2 border border-grey-50 bg-white "
+              className="relative rounded-l-xsm inline-flex items-center px-2 py-2 border-r border-grey-50 bg-white "
             >
               <span className="sr-only">Previous</span>
               <img className="h-6 w-4" src="images/left-arrow.png" />
@@ -60,7 +60,7 @@ export default function Pagination() {
 
             <a
               href="#"
-              className="relative inline-flex rounded-r-xsm items-center px-2 py-2  border border-grey-50 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+              className="relative inline-flex rounded-r-xsm items-center px-2 py-2  border-l border-grey-50 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
             >
               <img className="h-6 w-4" src="images/right-arrow.png" />
             </a>

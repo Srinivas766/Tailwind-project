@@ -7,7 +7,7 @@ const WhiteList = () => {
       <h1 className="text-black-50 font-OpenSansSemiBold text-ft22">
         Whitelist
       </h1>
-      <div className="mt-11 flex justify-between">
+      <div className="mt-11 xs:block flex justify-between">
         <div className="flex items-center justify-between bg-white border border-white rounded-lsm xs:w-auto xs:mr-5 w-75 h-11 px-5">
           <input type="text" placeholder="Search" className=" outline-none" />
           <img
@@ -16,15 +16,18 @@ const WhiteList = () => {
             className="w-4 h-4.5"
           />
         </div>
-        <div className="bg-blue-100 flex justify-center items-center xs:w-auto xs:h-auto xs:rounded-xsm xs:p-1 w-37.5 h-12.5 rounded-lsm text-white font-OpenSansSemiBold text-ft14 gap-2.5">
-          <h1>+</h1>
-          <button type="submit">Add User</button>
-        </div>
+
+        <button
+          className="bg-blue-100 xs:mt-7.5pe flex justify-center items-center w-37.5 h-12.5 rounded-lsm text-white font-OpenSansSemiBold text-ft14"
+          type="submit"
+        >
+          + Add User
+        </button>
       </div>
-      <div className="bg-white rounded-sm drop-shadow-loginform w-full min-w-300 py-3.5 mt-7.5">
+      <div className="bg-white rounded-sm drop-shadow-loginform w-full min-w-300 py-3.5 mt-7.5 overflow-x-scroll">
         <table className="table min-w-full whitespace-nowrap justify-center ">
           <thead className="border-b-2 border-grey-50">
-            <th className="py-5 pl-7.5">
+            <th className="py-5 xr:pl-7.5 pl-3">
               <div className="flex items-baseline font-OpenSansSemiBold text-black-50 font-semibold">
                 Name
                 <img
@@ -77,7 +80,7 @@ const WhiteList = () => {
           </thead>
           <tbody>
             <tr className="border-b-2 border-grey-50">
-              <td className="py-5 pl-7.5 font-OpenSansRegular text-black-50 text-ft14">
+              <td className="py-5 xr:pl-7.5 pl-3 font-OpenSansRegular text-black-50 text-ft14">
                 John Doe
               </td>
               <td className="py-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -94,7 +97,7 @@ const WhiteList = () => {
               </td>
             </tr>
             <tr className="border-b-2 border-grey-50">
-              <td className="py-5 pl-7.5 font-OpenSansRegular text-black-50 text-ft14">
+              <td className="py-5 xr:pl-7.5 pl-3 font-OpenSansRegular text-black-50 text-ft14">
                 Juan Dela Cruz
               </td>
               <td className="py-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -111,7 +114,7 @@ const WhiteList = () => {
               </td>
             </tr>
             <tr className="border-b-2 border-grey-50">
-              <td className="py-5 pl-7.5 font-OpenSansRegular text-black-50 text-ft14">
+              <td className="py-5 xr:pl-7.5 pl-3 font-OpenSansRegular text-black-50 text-ft14">
                 Maine Jaspeih
               </td>
               <td className="py-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -128,7 +131,7 @@ const WhiteList = () => {
               </td>
             </tr>
             <tr className="border-b-2 border-grey-50">
-              <td className="py-5 pl-7.5 font-OpenSansRegular text-black-50 text-ft14">
+              <td className="py-5 xr:pl-7.5 pl-3 font-OpenSansRegular text-black-50 text-ft14">
                 Melanie moore
               </td>
               <td className="py-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -145,7 +148,7 @@ const WhiteList = () => {
               </td>
             </tr>
             <tr className="border-b-2 border-grey-50">
-              <td className="py-5 pl-7.5 font-OpenSansRegular text-black-50 text-ft14">
+              <td className="py-5 xr:pl-7.5 pl-3 font-OpenSansRegular text-black-50 text-ft14">
                 Olivia Wharton
               </td>
               <td className="py-5 font-OpenSansRegular text-black-50 text-ft14">
@@ -162,7 +165,7 @@ const WhiteList = () => {
               </td>
             </tr>
             <tr>
-              <td className="py-5 pl-7.5 font-OpenSansRegular text-black-50 text-ft14">
+              <td className="py-5 xr:pl-7.5 pl-3 font-OpenSansRegular text-black-50 text-ft14">
                 John Doe
               </td>
               <td className="py-5 font-OpenSansRegular text-black-50 text-ft14">
