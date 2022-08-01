@@ -3,7 +3,7 @@ import Pagination from "./pagination";
 
 const WhiteList = () => {
   return (
-    <div className="bg-grey-200 bg-cover h-screen px-12.5 pt-14.5">
+    <div className="bg-grey-200 h-full px-12.5 pt-14.5">
       <h1 className="text-black-50 font-OpenSansSemiBold text-ft22">
         Whitelist
       </h1>
@@ -24,7 +24,7 @@ const WhiteList = () => {
           + Add User
         </button>
       </div>
-      <div className="bg-white rounded-sm shadow-sm w-full min-w-300 py-3.5 mt-7.5 overflow-x-scroll">
+      <div className="bg-white rounded-sm shadow-sm w-full min-w-300 py-3.5 mt-7.5 xs:overflow-x-scroll sm:overflow-x-scroll">
         <table className="table min-w-full whitespace-nowrap justify-center ">
           <thead className="border-b-2 border-grey-50">
             <th className="py-5 xr:pl-7.5 pl-3">

@@ -44,7 +44,7 @@ const DashBoard = () => {
     },
   ]);
   return (
-    <div className="pl-12.5 pr-12.5 xs:px-2 bg-grey-200 min-h-screen bg-cover">
+    <div className="pl-12.5 pr-12.5 xs:px-2 bg-grey-200 min-h-screen ">
       <div className="2.5xl:flex pt-12.5 xs:pt-8 text-black-50 text-ft22 font-OpenSansSemiBold items-center justify-between">
         <h1>DashBoard</h1>
 
@@ -205,7 +205,7 @@ const DashBoard = () => {
           <h1 className="font-OpenSansSemiBold text-ft18 text-black-50">
             Splits per contributors
           </h1>
-          <div className="mt-10 tb:flex mbl:h-148 items-center bg-white bg-cover min-w-full rounded-sm shadow-sm">
+          <div className="mt-10 tb:flex mbl:h-148 items-center bg-white min-w-full rounded-sm shadow-sm">
             <Chart />
             <div className="mbl:flex mbl:flex-col mbl:items-center">
               <div>
@@ -254,7 +254,7 @@ const DashBoard = () => {
           <h1 className="font-OpenSansSemiBold text-ft18 text-black-50">
             Sales by Event
           </h1>
-          <div className="mt-10 bg-white h-100 p-5 rounded-sm">
+          <div className="mt-10 bg-white h-100 p-5 rounded-sm xs:overflow-x-scroll">
             <table className="table min-w-full whitespace-nowrap">
               <thead className="border-b border-grey-50 bg-white sticky top-0">
                 <tr className="flex">
