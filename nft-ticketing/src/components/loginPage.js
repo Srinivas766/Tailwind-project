@@ -1,20 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const LoginPage = (params) => {
   const { history } = params;
 
-  const submitHandler = (event) => {
-    event.preventDefault();
-    history.replace("/main");
+  const submitHandler = () => {
+    history.push("/main");
     window.location.reload();
   };
 
   return (
     <div className="bg-grey-50 h-screen bg-cover flex justify-center items-center shadow-sm">
-      <form
-        className="bg-white w-125 h-133.5 flex flex-col items-center rounded-sm xs:w-80"
-        onSubmit={submitHandler}
-      >
+      <form className="bg-white w-125 h-133.5 flex flex-col items-center rounded-sm xs:w-80">
         <img
           src="/images/main-logo.svg"
           alt="mainLogo"
@@ -43,6 +39,7 @@ const LoginPage = (params) => {
         </div>
         <button
           type="submit"
+          onClick={submitHandler}
           className="mt-12.5 hover:bg-blue-100 text-white bg-grey-150 w-115 h-17.5 xs:w-72 rounded-md text-ft16 font-OpenSansSemiBold"
         >
           Sign in
